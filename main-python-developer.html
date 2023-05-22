@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillDawn</title>
+
+    <link rel="stylesheet" href="./css/course.css" />
+
+    <link rel="stylesheet" href="./css/normalize.css" />
+
+    <link rel="stylesheet" href="./css/stylesheet.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <script src="./js/app.js" defer></script>
+    
+    <script src="./js/login.js" defer></script>
+
+    <link rel="icon" href="./jpg/icon" />
+  </head>
+  <body>
+
+    <div class="container">
+      <header>
+        <ul class="nav-list">
+          <li id="Logo">
+            <a href="./index.html" id="logo_a">
+              <img src="./jpg/Logo.png" alt="" id="logo_size" />
+            </a>
+          </li>
+          <li id="all_lessons">
+            <a href="./directions.html" class="navigation-all-lessons"
+              >Все курсы</a
+            >
+          </li>
+          <li id="about_SkillDawn">
+            <a href="./about_SkillDawn.html" class="navigation">О SkillDawn</a>
+          </li>
+          <li id="free">
+            <a href="" class="navigation">Бесплатно</a>
+          </li>
+          <li id="contacts">
+            <a href="" class="navigation">Контакты</a>
+          </li>
+          <li id="login">
+            <a href="" class="navigation-login">Войти</a>
+          </li>
+        </ul>
+      </header>
+
+      <ul id="breadcrumbs">
+        <li><a href="./index.html">Главная</a></li>
+        <li><a href="./directions.html">Курсы</a></li>
+        <li><a href="#">Python-разработчик</a></li>
+      </ul>
+
+      <div id="choose-direction">
+        <div id="choose-direction-left">
+          <p id="course-name">Python-разработчик</p>
+          <p class="course-p">
+            На Python пишут веб-приложения и нейросети, проводят научные
+            вычисления и автоматизируют процессы. Язык просто выучить, даже если
+            вы никогда не программировали.
+          </p>
+          <p class="course-p">
+            На курсе вы создадите Telegram-бота, полноценный магазин и аналог
+            популярной соцсети для портфолио.
+          </p>
+
+          <a id="direction-button" href="#application">Записаться на курс</a>
+        </div>
+        <div id="choose-direction-right">
+          <img id="direction-img" src="./jpg/Python-разработчик.webp" alt="" />
+        </div>
+      </div>
+
+      <div id="advantages">
+        <div class="advantage">
+          <p class="advantage-main">• ★4.99 из 5</p>
+          <p class="advantage-p">
+            на основании 236543 <br />
+            оценок курса
+          </p>
+        </div>
+        <div class="advantage">
+          <p class="advantage-main">• Через полгода</p>
+          <p class="advantage-p">
+            сможете начать <br />
+            работать
+          </p>
+        </div>
+        <div class="advantage">
+          <p class="advantage-main">• 12 курсов</p>
+          <p class="advantage-p">внутри</p>
+        </div>
+        <div class="advantage">
+          <p class="advantage-main">• 3 проекта</p>
+          <p class="advantage-p">
+            включая групповую <br />
+            стажировку
+          </p>
+        </div>
+      </div>
+
+      <div id="about_profession">
+        <p class="about_proffesion_p">О профессии</p>
+        <div id="about_profession_information">
+          <p class="about_profession_top">
+            <font style="font-weight: 500">Python</font> — идеальный язык для
+            новичка. Код на Python легко писать <br />
+            и читать, язык стабильно занимает высокие места в рейтингах
+            популярности, а «питонисты» востребованы почти во всех сферах <br />
+            IT — программировании, анализе данных, системном администрировании и
+            тестировании.
+          </p>
+          <p class="about_profession_bottom">
+            YouTube, Intel, Pixar, NASA, VK, Яндекс — вот лишь немногие из
+            известных компаний, которые используют Python в своих продуктах.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="content">
+        <div class="content-top">
+          <div class="content-left">
+            <p id="content-left-p">Содержание <br>курсов</p>
+          </div>
+          <div class="content-right">
+            <p id="content-right-p">Вас ждут 5 блоков
+              по программированию
+              на Python и более 100 тем для разбора. Сложность занятий увеличивается постепенно. 
+            </p>
+            <div class="content-info">
+              <div class="content-month">
+                <p style="background-color: #1D4AED; color: white; padding: 5px 13px 5px 13px; margin-right: 15px; font-size: 21pt; font-weight: 600; border-radius: 30px;">10</p>
+                <p>месяцев</p>
+              </div>
+              <div class="content-number">
+                <p style="background-color: #1D4AED; color: white; padding: 5px 20px 5px 20px; margin-right: 15px; font-size: 21pt; font-weight: 600; border-radius: 30px;">5</p>
+                <p>итоговых <br> проектов</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-bottom">
+          <div class="box closed">
+            <p>
+              1. Основы Python. Часть 1
+              <span class="l"></span><span class="r"></span>
+            </p>
+            <div class="hide"><span class="s"></span><span class="h"></span></div>
+            <div class="block">
+              <div class="block_in">
+                • Введение. <br>
+                • Основы работы с Python.<br>
+                • Операторы, выражения.<br>
+                • Условный оператор if, ветвления.<br>
+                • Условный оператор if: продолжение.<br>
+                • Цикл while.<br>
+                • Цикл for: циклы со счётчиком.<br>
+                • Цикл for: особенности работы с range.<br>
+                • Цикл for: работа со строками.<br>
+                • Вложенные циклы.<br>
+                • Числа. Типы int и float.<br>
+                • Функции: начало.<br>
+                • Особенности float.  
+              </div>
+            </div>
+          </div>  
+
+          <div class="box closed">
+            <p>
+              2. Основы Python. Часть 2
+              <span class="l"></span><span class="r"></span>
+            </p>
+            <div class="hide"><span class="s"></span><span class="h"></span></div>
+            <div class="block">
+              <div class="block_in">
+                • Установка и настройка IDE.<br>
+                • Базовые коллекции. Списки.<br>
+                • List: методы работы со списками.<br>
+                • Представления списков.<br>
+                • Базовые коллекции. Строки.<br>
+                • Базовые коллекции. Словари.<br>
+                • Базовые коллекции. Кортежи.<br>
+                • Функции: продолжение.<br>
+                • Работа с файлами.<br>
+                • Исключения: работа с ошибками.<br>
+                • Введение в ООП.<br>
+                • Основные принципы ООП.<br>
+                • Итераторы и генераторы.<br>
+                • Декораторы: базовый уровень.<br>
+                • Углублённая работа с классами и встроенные декораторы.<br>
+                • Декораторы: продвинутый уровень.<br>
+                • Функции: конец.<br>
+                • Библиотеки для работы с данными. 
+              </div>
+            </div>
+          </div>  
+
+          <div class="box closed">
+            <p>
+              3. Python-фреймворк Django
+              <span class="l"></span><span class="r"></span>
+            </p>
+            <div class="hide"><span class="s"></span><span class="h"></span></div>
+            <div class="block">
+              <div class="block_in">
+                • Введение в веб-фреймворки.<br>
+                • Введение в Django.
+                • Введение в веб и Linux.<br>
+                • База данных и модели.<br>
+                • Административный интерфейс в Django.<br>
+                • Обработка запросов в Django.<br>
+                • Формы.<br>
+                • Class Based Views. Generic Views.<br>
+                • Аутентификация и авторизация.<br>
+                • Регистрация и права доступа..<br>
+                • Тестирование.<br>
+                • Работа с файлами.<br>
+                • Локализация и интернационализация.<br>
+                • Введение в Django REST Framework<br>
+                • Документирование<br>
+                • Эффективная работа с базой данных в django<br>
+                • Логирование и профилирование<br>
+                • Экспорт/импорт данных<br>
+                • Оптимизация с помощью кэширования<br>
+                • Деплой и командная разработка
+              </div>
+            </div>
+          </div>  
+
+          <div class="box closed">
+            <p>
+              4. Стажировка в SkillDawn
+              <span class="l"></span><span class="r"></span>
+            </p>
+            <div class="hide"><span class="s"></span><span class="h"></span></div>
+            <div class="block">
+              <div class="block_in" style="width: 1000px;">
+                • Вместе с тимлидом и командой из 3–5 человек вы разработаете серверную часть для полноценного маркетплейса. Вы будете работать по системе Scrum или Kanban, регулярно обсуждать с тимлидом текущий прогресс <br> и получать новые задачи. Все процессы максимально приближены <br> к реальным условиям — именно так создают коммерческий софт <br> в компаниях-работодателях<div class="br"></div>
+                • В результате вы создадите собственный аналог Яндекс Маркета.
+              </div>
+            </div>
+          </div>  
+
+          <div class="box closed">
+            <p>
+              5. Python Advanced
+              <span class="l"></span><span class="r"></span>
+            </p>
+            <div class="hide"><span class="s"></span><span class="h"></span></div>
+            <div class="block">
+              <div class="block_in">
+                • Flask: начало.<br>
+                • Основы работы в Linux. Часть 1.<br>
+                • Основы культуры CI. Часть 1.<br>
+                • Flask.<br>
+                • Основы работы в Linux. Часть 2.<br>
+                • Основы дебаггинга и профилирования. Часть 1.<br>
+                • Logger.<br>
+                • Деплой приложения на linux.<br>
+                • Docker.<br>
+                • Базы данных. Часть 1.<br>
+                • Многозадачность. Часть 1.<br>
+                • Многозадачность. Часть 2.<br>
+                • Базы данных. Часть 2.<br>
+                • Вводный модуль по MVC-фреймворку. Часть 1.<br>
+                • Вводный модуль по MVC-фреймворку. Часть 2.<br>
+                • Базы данных. Часть 3.<br>
+                • RESTful API.<br>
+                • MVC, язык шаблонов. Часть 3.<br>
+                • Базы данных. Часть 4.<br>
+                • Знакомство с ORM SQLAlchemy. Часть 1.<br>
+                • ORM SQLAlchemy. Часть 2.<br>
+                • CGI server.<br>
+                • Основы дебаггинга и профилирования. Часть 2.<br>
+                • Основы дебаггинга и профилирования. Часть 3.<br>
+                • Многозадачность: asyncio.<br>
+                • Многозадачность: fastAPI.<br>
+                • Postgres + Миграции.<br>
+                • Pytest, Mock.<br>
+                • Безопасность.<br>
+                • Основы культуры CI: linters.<br>
+                • CD, автоматический деплой.
+              </div>
+            </div>
+          </div>  
+
+          <div class="box closed" style="border-bottom: 1px solid black;">
+            <p>
+              6. Дополнительные курсы
+              <span class="l"></span><span class="r"></span>
+            </p>
+            <div class="hide"><span class="s"></span><span class="h"></span></div>
+            <div class="block">
+              <div class="block_in">
+                • Карьера и развитие для программиста.<br>
+                • Веб-вёрстка. Базовый уровень.<br>
+                • Язык запросов SQL.<br>
+                • Система контроля версий GIT.<br>
+                • Универсальные знания программиста. 
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+
+      <div id="application">
+        <div class="application-left">
+          <p class="application-p">Оставьте заявку</p>
+          <p class="start-p">Начало обучения: n месяца <br> Старт потока каждые n недель</p>
+          <form action="" class="application-form">
+            <input type="text" placeholder="Имя" class="name">
+            <input type="email" placeholder="Электронная почта" class="email">
+            <input type="tel" placeholder="8 (912) 345-67-89" class="tel">
+            <input type="submit" class="button">
+          </form>
+          
+        
+      
+        </div>
+        <div class="application-right">
+          <img src="./jpg/1123.png" alt="" class="application-img">
+        </div>
+      </div>
+      <footer>
+        <div id="over-footer">
+          <div id="over-footer-container">
+            <img src="./jpg/Logo.png" alt="" id="footer-logo" />
+            <div id="number">+7 800 555-35-35</div>
+            <div id="email">support@skilldawn.ru</div>
+          </div>
+        </div>
+        <hr id="footer-line" />
+        <div id="main-footer">
+          <div id="footer-left">
+            <p id="directions">Направления</p>
+            <hr class="main-footer-line" />
+            <a href="./programming.html" class="direction">Программирование</a>
+            <a href="./design.html" class="direction">Дизайн</a>
+            <a href="./marketing.html" class="direction">Маркетинг</a>
+            <a href="./games.html" class="direction">Игры</a>
+            <a href="./managment.html" class="direction">Управление</a>
+            <a href="./business.html" class="direction">Бизнес</a>
+            <a href="./english.html" class="direction">Английский язык</a>
+            <a href="./analytics.html" class="direction">Аналитика</a>
+          </div>
+          <div id="footer-right">
+            <div id="footer-about">
+              <p id="directions">О SkillDawn</p>
+              <hr class="main-footer-line" />
+              <a href="" class="direction">О платформе</a>
+              <a href="" class="direction">Контакты</a>
+              <a href="" class="direction"
+                >Лицензионное <br />
+                соглашение</a
+              >
+            </div>
+            <div id="coop">
+              <p id="directions">Сотрудничество</p>
+              <hr class="main-footer-line" />
+              <a href="" class="direction">Скидка для друзей</a>
+              <a href="" class="direction"
+                >Парнёрская <br />
+                программа</a
+              >
+              <a href="" class="direction"
+                >Коропоративным <br />
+                клиентам</a
+              >
+              <a href="" class="direction">Работодателям</a>
+            </div>
+          </div>
+        </div>
+        <div id="under-footer">
+          <p id="address">191186, г. Санкт-Петербург, Дворцовая площадь 6-8</p>
+          <p id="copy">&copy; SkillDawn, 2023</p>
+        </div>
+      </footer>
+        
+        
+
+      
+    </div>
+
+
+
+  </body>
+</html>

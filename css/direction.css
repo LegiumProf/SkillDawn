@@ -1,0 +1,456 @@
+body {
+    font-family: "Graphik LCG";
+}
+header {
+    height: 50px;
+}
+#logo_a {
+    height: 50px;
+    width: 220px;
+}
+.navigation {
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px 7px 10px;
+}
+.navigation-login {
+    padding: 9px 9px 6px 9px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 30px;
+}
+.navigation-all-lessons {
+    padding: 9px 9px 6px 9px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 30px;
+}
+
+.navigation:hover {
+    border: solid;
+    background-color: #1D4AED;
+    color: white;
+    border-style: none;
+    padding: 10px 10px 7px 10px;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-property: background-color;
+}
+.navigation-all-lessons:hover {
+    border: solid;
+    background-color: #1D4AED;
+    color: white;
+    border-style: none;
+    padding: 10px 10px 7px 10px;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-property: background-color;
+}
+.navigation-login:hover {
+    border: solid;
+    background-color: #1D4AED;
+    color: white;
+    border-style: none;
+    padding: 10px 10px 7px 10px;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-property: background-color;
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-between;
+    max-width: 1360px;
+    position: relative;
+    top: 30px;
+    height: 50px;
+}
+
+#logo_size {
+    position: relative;
+    width: 220px;
+    height: 50px;
+}
+#Logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#all_lessons {
+    position: relative;
+    font-size: 15pt;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+#about_SkillDawn {
+    position: relative;
+    font-size: 15pt;
+    left: 220px;
+    display: flex;
+    align-items: center;
+}
+#free {
+    position: relative;
+    font-size: 15pt;
+    left: 150px;
+    display: flex;
+    align-items: center;
+}
+#contacts {
+    position: relative;
+    font-size: 15pt;
+    left: 80px;
+    display: flex;
+    align-items: center;
+}
+#login {
+    position: relative;
+    font-size: 15pt;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+#breadcrumbs {
+    position: relative;
+    top: 80px;
+    display: flex;
+    max-width: 1360px;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+}
+ul#breadcrumbs li {
+    display: inline;
+    font-size: 15pt;
+}
+ul#breadcrumbs li+li:before {
+    padding: 25px;
+    color: #808080;
+    content: "→";
+}
+ul#breadcrumbs li a {
+    text-decoration: none;
+    color: #808080;
+}
+
+
+#choose-direction {
+    display: flex;
+    max-width: 1360px;
+    margin: auto;
+    height: 550px;
+    background-color: #E7E7E7;
+    position: relative;
+    top: 140px;
+    border-radius: 40px;
+    flex-direction: column
+}
+#choose-direction-container {
+    width: 75%;
+    height: 100%;
+}
+#all-programs {
+    margin-left: 35px;
+    margin-top: 100px;
+    font-size: 40pt;
+    font-weight: 600;
+}
+#choose {
+    padding: 0;
+    margin-left: 35px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+ul#choose li {
+    margin-bottom: 20px;
+    padding: 12px 0px 12px 0px;
+}
+#choosed {
+    padding: 12px 12px 12px 12px;
+    text-decoration: none;
+    color: white;
+    border: solid;
+    background-color: #1D4AED;
+    border: 1px solid;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-top: 100px;
+    font-size: 17pt;
+}
+.non-choosed{
+    padding: 12px 12px 12px 12px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-top: 100px;
+    font-size: 17pt;
+}
+.non-choosed:hover {
+    border: solid;
+    background-color: #1D4AED;
+    color: white;
+    border-style: none;
+    padding: 13px 13px 13px 13px;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-property: background-color;
+}
+
+
+
+
+
+#cards-container {
+    max-width: 1360px;
+    margin: auto;
+    position: relative;
+    top: 220px;
+}
+#cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(20, 400px);
+    gap: 20px;
+}
+#cards-grid-programming {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(8, 400px);
+    gap: 20px;
+}
+#cards-grid-marketing {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 400px);
+    gap: 20px;
+}
+#cards-grid-design {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(6, 400px);
+    gap: 20px;
+}
+#cards-grid-games {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(4, 400px);
+    gap: 20px;
+}
+#cards-grid-managment {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(3, 400px);
+    gap: 20px;
+}
+#cards-grid-business {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(4, 400px);
+    gap: 20px;
+}
+#cards-grid-english {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 400px);
+    gap: 20px;
+}
+#cards-grid-analitics {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(3, 400px);
+    gap: 20px;
+}
+
+
+.card-background {
+    border-radius: 40px;
+    transition: transform .2s;
+    height: 100%;
+    width: 100%;
+}
+.card-a {
+    height: 100%;
+    width: 100%;
+}
+.card-background:hover {
+    transform: scale(1.0298);
+}
+.card-background:active {
+    transform: scale(1.01492);
+}
+.top-content {
+    display: flex;
+    margin: 45px 0 0 45px;
+}
+.card-img {
+    width: 180px;
+    height: 180px;
+}
+
+
+.top-content p{
+    margin: 0;
+    width: 380px;
+    font-size: 25pt;
+    font-weight: 500;
+}
+.card-content {
+    display: flex;
+    position: absolute;
+    
+    height: 400px;
+    flex-direction: column;
+    z-index: 100;
+    pointer-events: none;
+}
+.bottom-content {
+    margin: 0 0 0 45px;
+    display: flex;
+    flex-direction: column;
+}
+.cost-container {
+    display: flex;
+    flex-direction: row;
+}
+.duration-title {
+    font-size: 15pt;
+    margin: 0;
+}
+.notice-title {
+    font-size: 12pt;
+}
+.cost-1 {
+    font-size: 15pt;
+    font-weight: 500;
+    margin: 20px 30px 0 0;
+    color: #1D4AED;
+}
+.cost-2 {
+    font-size: 15pt;
+    font-weight: 500;
+    margin: 20px 30px 0 0;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+footer {
+    position: relative;
+    top: 350px;
+    height: 750px;
+}
+#over-footer {
+    display: flex;
+    max-width: 1360px;
+    margin: auto;
+    align-items: baseline;
+}
+#footer-logo {
+    width: 250px;
+    height: 58px;
+    margin-right: 60px;
+}
+#over-footer-container {
+    display: flex;
+}
+#number {
+    margin-top: 41px;
+    margin-right: 55px;
+    font-weight: 500;
+    font-size: 15pt;
+}
+#email {
+    margin-top: 41px;
+    font-weight: 400;
+    font-size: 15pt;
+}
+#footer-line {
+    width: 1360px;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    size: 2px;
+    border: 0;
+    border-top: 2px solid black;
+}
+
+#main-footer {
+    display: flex;
+    margin: auto;
+    max-width: 1360px;
+    justify-content: space-between;
+}
+#footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer-line {
+    width: 210px;
+    position: relative;
+    size: 2px;
+    border: 0;
+    border-top: 2px solid black;
+    margin-left: 0;
+}
+.direction {
+    text-decoration: none;
+    color: black;
+    font-size: 16pt;
+    margin-top: 20px;
+    font-weight: 400;
+    margin-left: 0;
+}
+#directions {
+    font-size: 20pt;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+#footer-right {
+    display: flex;
+}
+#footer-about {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+#coop {
+    display: flex;
+    flex-direction: column;
+}
+#under-footer {
+    display: flex;
+    max-width: 1360px;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#address {
+    font-size: 15pt;
+    font-weight: 400;
+}
+#copy {
+    font-size: 18pt;
+}

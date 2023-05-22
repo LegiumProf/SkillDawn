@@ -1,0 +1,268 @@
+.btn {
+    border-color: white;
+    color: black;
+    font-size: 15pt;
+    padding: 4px 10px 4px 10px;
+    
+} .btn:hover {
+    background: #1D4AED;
+    border-color: white;
+}
+.btn-outline-dark {
+    border-color: black
+}
+body {
+    font-family: "Graphik LCG";
+    height: 8000px;
+}
+.block {
+    width: 100%;
+    margin-right: 20px;
+}
+.info-1::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    background-color: #1D4AED;
+    border-radius: 30px;
+}
+.info-2::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    background-color: #FEAF53;
+    border-radius: 30px;
+}
+.info-3::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    background-color: #F86494;
+    border-radius: 30px;
+}
+.info-4::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    background-color: #9883FC;
+    border-radius: 30px;
+}
+
+.cont {
+    position: absolute;
+}
+
+#reviews {
+    position: relative;
+    top: 680px;
+}
+#reviews-title {
+    position: relative;
+    top: 180px;
+    display: flex;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0;
+}
+.review {
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 170px;
+}
+.review-name {
+    font-size: 35pt;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.rewiew-quote {
+    font-size: 30pt;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.rewiew-by {
+    font-size: 30pt;
+    font-weight: 400;
+}
+.rewiew-photo {
+    width: 400px;
+    height: 400px;
+}
+.review-rewerse {
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0;
+    flex-direction: row-reverse;
+    margin-bottom: 170px;
+}
+
+
+#title-directions {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1360px;
+    position: relative;
+    top: 100px;
+}
+h2 {
+    font-size: 45pt;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 20pt;
+    font-weight: 600;
+}
+#buttons {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1360px;
+    position: relative;
+    top: 1200px;
+}
+.button-1 {
+    transition: transform .2s;
+}
+.button-1::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    background-color: #1D4AED;
+    border-radius: 30px;
+}
+.button-1:hover {
+    transform: scale(1.0615);
+}
+.button-1:active {
+    transform: scale(1.0307);
+}
+
+
+
+.button-2 {
+    transition: transform .2s;
+}
+.button-2::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    background-color: #FEAF53;
+    border-radius: 30px;
+}
+.button-2:hover {
+    transform: scale(1.0615);
+}
+.button-2:active {
+    transform: scale(1.0307);
+}
+
+
+
+
+.button-3 {
+    transition: transform .2s;
+}
+.button-3::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    background-color: #F86494;
+    border-radius: 30px;
+}
+.button-3:hover {
+    transform: scale(1.0615);
+}
+.button-3:active {
+    transform: scale(1.0307);
+}
+
+
+
+.button-4 {
+    transition: transform .2s;
+}
+.button-4::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    background-color: #9883FC;
+    border-radius: 30px;
+}
+.button-4:hover {
+    transform: scale(1.0615);
+}
+.button-4:active {
+    transform: scale(1.0307);
+}
+
+
+.button-container-1 {
+    width: 100%;
+    margin-right: 20px;
+}
+.button-container-2 {
+    width: 100%;
+    margin-right: 20px;
+}
+.button-container-3 {
+    width: 100%;
+    margin-right: 20px;
+}
+.button-container-4 {
+    width: 100%;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.button-info {
+    position: relative;
+    bottom: 33%;
+    left: 8%;
+    color: white;
+    font-size: 25pt;
+    font-weight: 500;
+}
+#web {
+    width: 25%;
+    height: 18%;
+    position: relative;
+    bottom: 78%;
+    left: 8%;
+}
+#eraser {
+    width: 25%;
+    height: 18%;
+    position: relative;
+    bottom: 70%;
+    left: 8%;
+}
+#promotion {
+    width: 25%;
+    height: 18%;
+    position: relative;
+    bottom: 70%;
+    left: 8%;
+}
+#lession {
+    width: 25%;
+    height: 18%;
+    position: relative;
+    bottom: 79%;
+    left: 8%;
+}
+::placeholder {
+    color: black;
+}
